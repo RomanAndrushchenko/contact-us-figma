@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  body {
+    margin: auto;
+  }
+  .header {
+    width: 1366px;
+    margin: 0 auto;
+  }
+  .container-head {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+  }
+  .logo {
+    display: flex;
+    position: relative;
+  }
+  .circle-1 {
+    width: 32px;
+    height: 32px;
+    background-color: #316099;
+    border: 2px solid #316099;
+    border-radius: 50%;
+  }
+  .circle-2 {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 2px solid #316099;
+    border-radius: 50%;
+    color: #316099;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    left: 50%;
+  }
+  .menu div {
+    width: 24px;
+    height: 3px;
+    background-color: #356ead;
+    margin: 4px 0;
+  }
+  .container-down {
+    background-image: url("images/Mask\ Group.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 1366px;
+    height: 250px;
+  }
+  .text-bold {
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .text-string {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+  }
+}
